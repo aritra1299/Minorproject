@@ -1,0 +1,60 @@
+{
+  "file_info": {
+    "filename": "sample5109.csv",
+    "keystroke_count": 19,
+    "verification_time": "2025-11-25T21:44:15.606551"
+  },
+  "authentication_result": {
+    "is_authentic": false,
+    "confidence": 9.981892892586687,
+    "ensemble_decision": "Impostor",
+    "model_agreement": 100.0,
+    "final_decision": "REJECTED"
+  },
+  "security_analysis": {
+    "risk_level": "MEDIUM",
+    "feature_anomaly_score": 0,
+    "timing_anomaly_score": 80,
+    "overall_anomaly_score": 40.0,
+    "behavior_consistency": 70,
+    "recommendations": [
+      "Consider multi-factor authentication",
+      "Abnormal timing patterns observed"
+    ]
+  },
+  "model_predictions": {
+    "individual_predictions": {
+      "RandomForest": "0",
+      "LightGBM": "0",
+      "XGBoost": "0"
+    },
+    "individual_probabilities": {
+      "RandomForest": [
+        0.7264743966350872,
+        0.27352560336491344
+      ],
+      "LightGBM": [
+        0.9746374710596543,
+        0.025362528940345734
+      ],
+      "XGBoost": [
+        0.9746125340461731,
+        0.02538745291531086
+      ]
+    },
+    "best_model": "LightGBM",
+    "best_model_prediction": "0",
+    "best_model_confidence": 97.46374710596542
+  },
+  "typing_statistics": {
+    "dwell_time_mean": 105.43684210526317,
+    "dwell_time_std": 30.08746897752758,
+    "flight_time_mean": 577.0315789473684,
+    "flight_time_std": 444.72490005074616,
+    "total_time": 12966.900000000001,
+    "typing_speed": 1.4652692625068442,
+    "dwell_flight_ratio": 0.18272282826808714,
+    "pause_ratio": 0.5263157894736842,
+    "error_rate": 0.0
+  }
+}
