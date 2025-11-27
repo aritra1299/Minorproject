@@ -1,27 +1,27 @@
 {
-  "best_model": "LightGBM",
+  "best_model": "XGBoost",
   "available_models": [
     "RandomForest",
     "LightGBM",
     "XGBoost"
   ],
   "feature_count": 9,
-  "training_date": "2025-11-25T21:39:00.466670",
+  "training_date": "2025-11-27T12:36:18.420165",
   "performance_metrics": {
     "RandomForest": {
-      "accuracy": 0.9162995594713657,
-      "auc_score": 0.9762693801978415,
-      "pr_auc": 0.9773100070079662
+      "accuracy": 0.908957415565345,
+      "auc_score": 0.9733569598126237,
+      "pr_auc": 0.9736913621773338
     },
     "LightGBM": {
-      "accuracy": 0.9627998042094958,
-      "auc_score": 0.9943697039278863,
-      "pr_auc": 0.9945139290430032
+      "accuracy": 0.956436612824278,
+      "auc_score": 0.9915627018521039,
+      "pr_auc": 0.9904850449996885
     },
     "XGBoost": {
-      "accuracy": 0.9574155653450808,
-      "auc_score": 0.9941205333783119,
-      "pr_auc": 0.9940252245572083
+      "accuracy": 0.9627998042094958,
+      "auc_score": 0.9932484364548013,
+      "pr_auc": 0.9929754532294368
     }
   }
 }
